@@ -76,3 +76,77 @@ body, html {
     margin-left: auto;
     border: 3px solid gray;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 70px;
+    gap: 16px;
+}
+
+.cards div {
+    text-align: center;
+    width: 204px;
+}
+
+.cards img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882F6;
+    border-radius: 16px;
+}
+
+.quote {
+    padding: 75px 20% 75px 20%;
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-size: 32px;
+}
+.quote p {
+    font-weight:lighter;
+}
+.quote b {
+    padding-left: 30%;
+}
+
+.sign-up {
+    margin: 10%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 16px 24px 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign-text {
+    color: white;
+    margin-right: 10px;
+}
+
+.sign-up button {
+    margin-right: 25px;
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 12px;
+    color: white;
+    padding: 2px 16px 2px 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
